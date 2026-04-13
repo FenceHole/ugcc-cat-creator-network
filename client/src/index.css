@@ -1,0 +1,137 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-heading: "Outfit", sans-serif;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+}
+
+/* Light Mode - Warm, Inviting, Cat-Inspired */
+:root {
+  --background: 30 20% 98%; /* Warm off-white */
+  --foreground: 20 14% 8%; /* Deep warm black */
+
+  --card: 0 0% 100%;
+  --card-foreground: 20 14% 8%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14% 8%;
+
+  --primary: 20 14% 8%; /* Deep warm charcoal */
+  --primary-foreground: 30 20% 98%;
+
+  --secondary: 30 15% 94%; /* Warm light grey */
+  --secondary-foreground: 20 14% 8%;
+
+  --muted: 30 15% 94%;
+  --muted-foreground: 25 10% 45%;
+
+  --accent: 25 95% 53%; /* Vibrant Orange — cat energy */
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 30 10% 88%;
+  --input: 30 10% 88%;
+  --ring: 25 95% 53%;
+
+  --radius: 0.5rem;
+
+  --chart-1: 25 95% 53%;
+  --chart-2: 35 90% 55%;
+  --chart-3: 15 80% 50%;
+  --chart-4: 45 85% 55%;
+  --chart-5: 200 70% 50%;
+}
+
+.dark {
+  --background: 20 14% 8%;
+  --foreground: 30 20% 95%;
+
+  --card: 20 12% 12%;
+  --card-foreground: 30 20% 95%;
+
+  --popover: 20 12% 12%;
+  --popover-foreground: 30 20% 95%;
+
+  --primary: 30 20% 95%;
+  --primary-foreground: 20 14% 8%;
+
+  --secondary: 20 10% 18%;
+  --secondary-foreground: 30 20% 95%;
+
+  --muted: 20 10% 18%;
+  --muted-foreground: 25 10% 60%;
+
+  --accent: 25 95% 53%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 20 10% 22%;
+  --input: 20 10% 22%;
+  --ring: 25 95% 53%;
+
+  --chart-1: 25 95% 53%;
+  --chart-2: 35 90% 55%;
+  --chart-3: 15 80% 50%;
+  --chart-4: 45 85% 55%;
+  --chart-5: 200 70% 50%;
+}
+
+.text-gradient-accent {
+  background: linear-gradient(135deg, hsl(25, 95%, 53%), hsl(15, 90%, 48%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-warm {
+  background: linear-gradient(135deg, hsl(25, 95%, 53%), hsl(35, 90%, 55%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

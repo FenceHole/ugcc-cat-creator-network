@@ -1,0 +1,146 @@
+{
+  "colorScheme": "dark",
+  "fonts": [
+    {
+      "family": "Inter",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#F5A623",
+    "accent": "#F5A623",
+    "background": "#000000",
+    "textPrimary": "#FFFFFF",
+    "link": "#F5A623"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Inter",
+      "heading": "Inter"
+    },
+    "fontStacks": {
+      "heading": [
+        "Inter",
+        "system-ui",
+        "-apple-system",
+        "sans-serif"
+      ],
+      "body": [
+        "Inter",
+        "system-ui",
+        "-apple-system",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Inter",
+        "system-ui",
+        "-apple-system",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "72px",
+      "h2": "30px",
+      "body": "24px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 8,
+    "borderRadius": "4px"
+  },
+  "components": {
+    "input": {
+      "background": "#070707",
+      "textColor": "#FFFFFF",
+      "borderColor": "#333333",
+      "borderRadius": "8px",
+      "borderRadiusCorners": {
+        "topLeft": "8px",
+        "topRight": "8px",
+        "bottomRight": "8px",
+        "bottomLeft": "8px"
+      },
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px"
+    },
+    "buttonPrimary": {
+      "background": "#F8F8F8",
+      "textColor": "#000000",
+      "borderRadius": "8px",
+      "borderRadiusCorners": {
+        "topLeft": "8px",
+        "topRight": "8px",
+        "bottomRight": "8px",
+        "bottomLeft": "8px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#0D0D0D",
+      "textColor": "#FFFFFF",
+      "borderColor": "#333333",
+      "borderRadius": "8px",
+      "borderRadiusCorners": {
+        "topLeft": "8px",
+        "topRight": "8px",
+        "bottomRight": "8px",
+        "bottomLeft": "8px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "https://coolcatstuff.replit.app/retro-cool-cat-mascot-with-sunglasses.jpg",
+    "favicon": null,
+    "ogImage": null,
+    "logoAlt": "Cool Cat Stuff Logo"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Selected #0 because it is the only visible logo candidate with alt text matching the brand 'Cool Cat Stuff'. Although not in the header, it is the most prominent logo available.",
+    "confidence": 0.8,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 0,
+      "text": "JOIN NOW",
+      "reasoning": "Button #0 ('JOIN NOW') uses a light background color (#F8F8F8) which contrasts with the dark theme of the site, making it stand out as a primary call-to-action. The text 'JOIN NOW' is action-oriented, indicating a primary CTA."
+    },
+    "secondary": {
+      "index": 1,
+      "text": "Frances and FamilyRead the origin story",
+      "reasoning": "Button #1 ('Frances and FamilyRead the origin story') has a dark background (#0D0D0D) and serves as a secondary action, providing additional information rather than a direct call-to-action."
+    },
+    "confidence": 0.9
+  },
+  "personality": {
+    "tone": "playful",
+    "energy": "high",
+    "targetAudience": "Cat enthusiasts and pet owners"
+  },
+  "designSystem": {
+    "framework": "tailwind",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.9,
+    "colors": 0.9,
+    "overall": 0.9
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is the only visible logo candidate with alt text matching the brand 'Cool Cat Stuff'. Although not in the header, it is the most prominent logo available.",
+        "confidence": 0.8
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}
